@@ -1,15 +1,67 @@
-*.pyc
-*.ipynb_checkpoints*
+# Editor temporary files
+.#*
+*\#*\#
+[#]*#
+*~
+*$
+*.bak
+*.log
+*.swp
+*.pdb
+.project
+.pydevproject
+.idea
+.settings
+.vagrant
+.noseids
+.ipynb_checkpoints
+.cache/
+.vscode/
+*.csv
+*.png
+*.jpg
+*.htm
+*.html
+*.js
+*.css
+*.js.min
+*.zip
+*.tar
+*.gz
+*.rar
+*.ttf
+input/
+output/
+logs/
+*.log
+core.*
 
-build/
-/dist/
-quantecon.egg-info/
-*.DS_Store
-*.TODO
-*.noseids
-*.coverage
-*.h5
+# Compiled source
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.py[ocd]
+*.so
 
-# Numba cache files
-*.nbc
-*.nbi
+# Python files
+build
+doc/_build
+dist
+*.egg-info
+*.eggs
+*.whl
+
+# Testing tools
+.coverage
+coverage.xml
+coverage_html_report
+
+# OS files
+.directory
+.gdb_history
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
